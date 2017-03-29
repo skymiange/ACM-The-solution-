@@ -19,7 +19,6 @@ int main(){
     for(int i=2;i<22;i++){
         f[i]=f[i-2]+f[i-1];
     }
-
     while(n--){
         ll i,gi,j;
         cin>>i>>gi>>j;
